@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 /*app.get('/', (req, res) => res.render('index'));
 */
 
-
+ 
 app.get('/',   async(req, res) => {
     var facts = ["burdurland", "TurkeyJerky", "KGBTR", "bgy", "duznamemes", "kucukinsanlaryoutube", "lanetliyorumlar", "ShitpostTC", "tamamahbapengelli", "Turkey"];
 var  fact  =  Math.floor(Math.random() * (facts.length - 0 + 1 ) + 0 )
