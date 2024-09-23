@@ -1,7 +1,7 @@
 {
-  "name": "reddit-api",
+  "name": "reddit-api-rastgele-resim",
   "version": "0.0.1",
-  "description": "Reddit api.",
+  "description": "Reddit api rastgele resim çekici.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -15,14 +15,13 @@
     "node": "12.x"
   },
   "repository": {
-    "url": "https://github.com/mustcodes/reddit-api-random-image"
+    "url": "https://github.com/madtethys/reddit-api-rastgele-resim"
   },
   "license": "MIT",
   "keywords": [
     "node",
     "glitch",
     "express",
-    "Furtsy",
     "Reddit"
   ]
 }
