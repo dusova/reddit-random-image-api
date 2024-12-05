@@ -1,65 +1,65 @@
-# Reddit Rastgele Resim Çekici
+# Reddit Random Image Fetcher
 
-Bu proje, Reddit API'sini kullanarak çeşitli subredditlerden rastgele resimler alır ve Express ve EJS ile oluşturulmuş bir web uygulamasında görüntüler.
+This project fetches random images from various subreddits using the Reddit API and displays them in a web application built with Express and EJS.
 
-## Özellikler
+## Features
 
-- Belirtilen subredditlerden rastgele resimler çeker.
-- Sıralama seçenekleri: hot, new, top.
-- Zaman filtreleme seçenekleri: saat, gün, hafta, ay, yıl, hepsi.
-- Basit ve kullanımı kolay bir web arayüzü.
+- Fetches random images from specified subreddits.
+- Sorting options: hot, new, top.
+- Time filtering options: hour, day, week, month, year, all.
+- Simple and easy-to-use web interface.
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
 - Node.js
 - Express.js
-- EJS (Gömülü JavaScript şablonları)
-- Node-fetch (HTTP istekleri yapmak için)
+- EJS (Embedded JavaScript templates)
+- Node-fetch (for making HTTP requests)
 
-## Kurulum
+## Installation
 
-1. Depoyu klonlayın:
+1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/madtethys/reddit-api-rastgele-resim.git
-   cd reddit-api-rastgele-resim
-   ```
+    ```bash
+    git clone https://github.com/dusova/reddit-random-image-api.git
+    cd reddit-random-image-api
+    ```
 
-2. Gerekli bağımlılıkları yükleyin:
+2. Install the necessary dependencies:
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
-3. Uygulamayı başlatın:
+3. Start the application:
 
-   ```bash
-   node app.js
-   ```
+    ```bash
+    node app.js
+    ```
 
-4. Web tarayıcınızı açın ve `http://localhost:3000` adresine gidin.
+4. Open your web browser and go to `http://localhost:3000`.
 
-## Kullanım
+## Usage
 
-- Ana sayfayı ziyaret ederek seçilen subredditlerden rastgele bir resmi görebilirsiniz.
-- Belirli subredditleri görüntülemek için `http://localhost:3000/:subreddit_adı` adresine gidebilirsiniz.
+- Visit the homepage to see a random image from the selected subreddits.
+- To view specific subreddits, go to `http://localhost:3000/:subreddit_name`.
 
-## Örnek
+## Example
 
-- "cats" subredditinden resimler görüntülemek için `http://localhost:3000/cats` adresine gidin.
+- To view images from the "cats" subreddit, go to `http://localhost:3000/cats`.
 
-## Lisans
+## License
 
-Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasını inceleyin.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Katkıda Bulunma
+## Contributing
 
-Uygulamanın işlevselliğini veya özelliklerini geliştirmek için sorunlar veya çekme istekleri göndermekten çekinmeyin!
+Feel free to submit issues or pull requests to improve the functionality or features of the application!
 
-## Teşekkürler
+## Acknowledgements
 
 - [Reddit API](https://www.reddit.com/dev/api)
 - [Express.js](https://expressjs.com/)
 - [EJS](https://ejs.co/)
 
-Dilerseniz içeriği daha fazla özelleştirebilirsiniz!
+Feel free to customize the content further!
